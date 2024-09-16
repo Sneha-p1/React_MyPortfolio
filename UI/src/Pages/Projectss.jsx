@@ -84,7 +84,7 @@ function Projectss() {
       title: 'Portfolio Website',
       image: Prj6,
       description: 'My personal portfolio website showcasing my projects and skills.',
-      github: '',
+      github: 'https://github.com/Sneha-p1/React_MyPortfolio',
       caption: 'A personal portfolio website showcasing projects and skills.',
     },
   ];
