@@ -57,7 +57,7 @@ function Projectss() {
       title: 'CookBook',
       image: Prj3,
       description: 'A comprehensive recipe book featuring a variety of delicious and easy-to-make dishes.',
-      github: 'https://github.com/Neethu-Muthu/COOKBOOK_DOCKER',
+      github: 'https://github.com/Sneha-p1/COOKBook_DOCKER_REACT',
       caption: 'A comprehensive recipe book featuring a variety of delicious and easy-to-make dishes.',
     },
     {
