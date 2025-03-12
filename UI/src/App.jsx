@@ -9,6 +9,7 @@ import Contact from './Components/Contact';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Certificate from './Pages/Certificate';
 import Skills from './Components/Skills';
+import Figma from './Components/Figma';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
               <AboutMe />
               <Skills/>
               <Project />
+              {/* <Figma/> */}
               <Certificate/>
               <SayHello />
               <Footer />

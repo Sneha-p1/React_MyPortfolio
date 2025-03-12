@@ -3,6 +3,7 @@ import javascriptlogo from '../assets/javascript-logo.svg';
 import htmllogo from '../assets/html-5-logo.svg';
 import csslogo from '../assets/css-3-logo.svg';
 import reactjslogo from '../assets/reactjs-logo.svg';
+import reactnativelogo from '../assets/react-native.svg';
 import tailwindlogo from '../assets/tailwind-logo.svg';
 import mongodblogo from '../assets/mongodb_logo.svg';
 import expresslogo from '../assets/icons8-express-js.svg';
@@ -55,6 +56,10 @@ function Skills() {
             <div className="flex gap-5 max-sm:flex-wrap">
               <div className="p-1 h-16 w-16 flex justify-center items-center bg-white rounded-full hover:bg-slate-300" onMouseMove={() => setName("React")} onMouseLeave={() => handleLeave(null)}>
                     <img src={reactjslogo} className="h-12" />
+              </div>
+                  
+              <div className="p-1 h-16 w-16 flex justify-center items-center bg-white rounded-full hover:bg-slate-300" onMouseMove={() => setName("React Native")} onMouseLeave={() => handleLeave(null)}>
+                    <img src={reactnativelogo} className="h-12" />
               </div>
 
               <div className="p-1 h-16 w-16 flex justify-center items-center bg-white rounded-full hover:bg-slate-300" onMouseMove={() => setName("Tailwind")} onMouseLeave={() => handleLeave(null)}>
